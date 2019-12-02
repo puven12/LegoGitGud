@@ -1,8 +1,56 @@
 \chapter{main Function}
 \section{basic}
 
+	\subsection{Init}
 	\begin{lstlisting}
-					task main()
-					{
-					}
+		task main()
+		{
+		}
   \end{lstlisting}
+
+	\subsection{Constants}
+	\subsubsection{Declaration}
+	\begin{lstlisting}
+		#define CONSTANT value
+		// must be capitalized
+	\end{lstlisting}
+	\subsubsection{Call}
+	\begin{lstlisting}
+		CONSTANT
+	\end{lstlisting}
+
+	\subsection{Loops}
+	\subsubsection{repeat loop}
+	\begin{lstlisting}
+		repeat("count"){
+		}
+	\end{lstlisting}
+	\subsubsection{while loop}
+	\begin{lstlisting}
+		while("start condition"){
+		}
+	\end{lstlisting}
+	\subsubsection{do-while}
+	\begin{lstlisting}
+		do {
+		} while ("end condition");
+	\end{lstlisting}
+	\subsubsection{until}
+	\begin{lstlisting}
+		until("end condition"){
+		}
+	\end{lstlisting}
+
+	\subsection{if-elseif-else}
+	\begin{lstlisting}
+		if ("condition"){
+		} else if ("condition") {
+		} else {
+		}
+	\end{lstlisting}
+
+	\subsection{Random Function}
+	\begin{lstlisting}
+		Random("maximum value")
+		out>> 0 - maximum value
+	\end{lstlisting}

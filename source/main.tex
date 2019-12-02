@@ -6,17 +6,17 @@
 \usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{listings}
-\usepackage{color}
+\usepackage{xcolor}
 \lstdefinestyle{customc}{
   belowcaptionskip=1\baselineskip,
   breaklines=true,
   frame=L,
-  xleftmargin=\parindent,
+	xleftmargin=\parindent,
   language=C,
   showstringspaces=false,
   basicstyle=\footnotesize\ttfamily,
-  keywordstyle=\bfseries\color{green!40!black},
-  commentstyle=\itshape\color{purple!40!black},
+  keywordstyle=\bfseries\color{green},
+  commentstyle=\itshape\color{purple},
   identifierstyle=\color{blue},
   stringstyle=\color{orange},
 }
@@ -27,4 +27,5 @@
 \begin{document}
 					\maketitle
 					\input{setup.tex}
+					\input{sensors.tex}
 \end{document}
